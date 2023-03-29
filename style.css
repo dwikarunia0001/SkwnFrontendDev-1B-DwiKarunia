@@ -13,14 +13,14 @@ body{
 
 .wrap {
     display: flex;
-    height: 100vh;
+    min-height: 100vh;
     margin: 0 auto;
     max-width: 840px;
 }
 
 .container {
     width: 375px;
-    height: 680px;
+    min-height: 100vh;
     margin: auto;
     border-radius: 30px;
     background: #ffff;
@@ -134,9 +134,66 @@ body{
     padding: 10px;
     border-radius: 100px;
     background-color: var(--light-blue);
+    color: var(--blue-bg);
 }
 
 /* services section */
+
+/* activity section */
+
+.activity {
+    padding: 80px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: -170px;
+}
+
+.act-list {
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: -20px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    background: #ffff;
+    padding: 15px 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+}
+
+.cleft {
+    display: flex;
+    gap: 6px;
+    align-items: start;
+}
+
+.bx-trending-up {
+    font-size: 10px;
+    padding: 10px;
+    border-radius: 100px;
+    background-color: var(--light-blue);
+    color: var(--blue-bg);
+}
+
+.cleft-text p {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.cright {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* activity section */
 
 :root{
     --text-color: #000000;
